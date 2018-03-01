@@ -1,0 +1,40 @@
+{  
+   "entities":[  
+
+   ],
+   "entityMap":{   
+        "collectionList":[  
+        {  
+            "assetIdList":[  
+                {  
+                    "assetId":847708686023,
+                    "ownerId":14259182020,
+                    "thumbnailEncryption":"https://fyf.tac-cdn.net/images/products/large/TEV12-4.jpg"
+                }
+            ],
+            "firstAssetId":{  
+                "assetId":847708686023,
+                "ownerId":14259182020,
+                "thumbnailEncryption":"https://fyf.tac-cdn.net/images/products/large/TEV12-4.jpg"
+            },
+            "id":122750418013
+        },
+        {  
+            "assetIdList":[  
+                {  
+                    "assetId":847708686023,
+                    "ownerId":14259182020,
+                    "thumbnailEncryption":"https://fyf.tac-cdn.net/images/products/large/TEV12-4.jpg"
+                }
+            ],
+            "firstAssetId":{  
+                "assetId":847708686023,
+                "ownerId":14259182020,
+                "thumbnailEncryption":"https://fyf.tac-cdn.net/images/products/large/TEV12-4.jpg"
+            },
+            "id":122750418013
+        }
+        ],
+        "collectionCount":"6"
+   }
+}

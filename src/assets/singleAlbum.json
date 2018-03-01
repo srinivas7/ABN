@@ -1,0 +1,358 @@
+{  
+   "entities":[  
+      {  
+         "@class":"Asset",
+         "_id":1000489927762070,
+         "ownerAccountId":14259182020,
+         "currentImageInfo":{  
+            "currentWidth":3264,
+            "currentHeight":4928
+         },
+         "exifTags":[  
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"date"
+            },
+            {  
+               "value":"JPEG (old-style)",
+               "key":"Compression"
+            },
+            {  
+               "value":"Inch",
+               "key":"tiff:ResolutionUnit"
+            },
+            {  
+               "value":"2016:06:17 16:44:41",
+               "key":"Date/Time Original"
+            },
+            {  
+               "value":"300 dots per inch",
+               "key":"X Resolution"
+            },
+            {  
+               "value":"NIKON CORPORATION",
+               "key":"tiff:Make"
+            },
+            {  
+               "value":"F2.8",
+               "key":"F-Number"
+            },
+            {  
+               "value":"Manual control",
+               "key":"Exposure Program"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"meta:creation-date"
+            },
+            {  
+               "value":"2.8",
+               "key":"exif:FNumber"
+            },
+            {  
+               "value":"1/80 sec",
+               "key":"Exposure Time"
+            },
+            {  
+               "value":"400",
+               "key":"ISO Speed Ratings"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"Creation-Date"
+            },
+            {  
+               "value":"NIKON CORPORATION",
+               "key":"Make"
+            },
+            {  
+               "value":"4928 pixels",
+               "key":"Exif Image Height"
+            },
+            {  
+               "value":"300.0",
+               "key":"tiff:YResolution"
+            },
+            {  
+               "value":"300 dots per inch",
+               "key":"Y Resolution"
+            },
+            {  
+               "value":"1.00",
+               "key":"FlashPix Version"
+            },
+            {  
+               "value":"false",
+               "key":"exif:Flash"
+            },
+            {  
+               "value":"0.0125",
+               "key":"exif:ExposureTime"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"Last-Save-Date"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"meta:save-date"
+            },
+            {  
+               "value":"2016:06:17 16:44:41",
+               "key":"Date/Time Digitized"
+            },
+            {  
+               "value":"Flash did not fire",
+               "key":"Flash"
+            },
+            {  
+               "value":"300.0",
+               "key":"tiff:XResolution"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"exif:DateTimeOriginal"
+            },
+            {  
+               "value":"2016:06:17 16:44:41",
+               "key":"Date/Time"
+            },
+            {  
+               "value":"3264 pixels",
+               "key":"Exif Image Width"
+            },
+            {  
+               "value":"4928 pixels",
+               "key":"Image Height"
+            },
+            {  
+               "value":"3264 pixels",
+               "key":"Image Width"
+            },
+            {  
+               "value":"Inch",
+               "key":"Resolution Unit"
+            },
+            {  
+               "value":"NIKON D5100",
+               "key":"tiff:Model"
+            },
+            {  
+               "value":"2 EV",
+               "key":"Exposure Bias Value"
+            },
+            {  
+               "value":"F1.7",
+               "key":"Max Aperture Value"
+            },
+            {  
+               "value":"Manual exposure",
+               "key":"Exposure Mode"
+            },
+            {  
+               "value":"NIKON D5100",
+               "key":"Model"
+            },
+            {  
+               "value":"3264",
+               "key":"tiff:ImageWidth"
+            }
+         ],
+         "assetType":"PICTURE",
+         "files":[  
+            {  
+               "fileType":"HIRES",
+               "url":"https://swiftbuckets.sf-cdn.com/v1/uass/hires_8550/0d4cd328-a1e2-41b0-bfa1-21d4ed9a6e91.jpg",
+               "width":3264,
+               "height":4928,
+               "size":5367987
+            }
+         ],
+         "dateTaken":1466181881000,
+         "id":1000489927762070
+      },
+      {  
+         "@class":"Asset",
+         "_id":1000489927762070,
+         "ownerAccountId":14259182020,
+         "currentImageInfo":{  
+            "currentWidth":3264,
+            "currentHeight":4928
+         },
+         "exifTags":[  
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"date"
+            },
+            {  
+               "value":"JPEG (old-style)",
+               "key":"Compression"
+            },
+            {  
+               "value":"Inch",
+               "key":"tiff:ResolutionUnit"
+            },
+            {  
+               "value":"2016:06:17 16:44:41",
+               "key":"Date/Time Original"
+            },
+            {  
+               "value":"300 dots per inch",
+               "key":"X Resolution"
+            },
+            {  
+               "value":"NIKON CORPORATION",
+               "key":"tiff:Make"
+            },
+            {  
+               "value":"F2.8",
+               "key":"F-Number"
+            },
+            {  
+               "value":"Manual control",
+               "key":"Exposure Program"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"meta:creation-date"
+            },
+            {  
+               "value":"2.8",
+               "key":"exif:FNumber"
+            },
+            {  
+               "value":"1/80 sec",
+               "key":"Exposure Time"
+            },
+            {  
+               "value":"400",
+               "key":"ISO Speed Ratings"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"Creation-Date"
+            },
+            {  
+               "value":"NIKON CORPORATION",
+               "key":"Make"
+            },
+            {  
+               "value":"4928 pixels",
+               "key":"Exif Image Height"
+            },
+            {  
+               "value":"300.0",
+               "key":"tiff:YResolution"
+            },
+            {  
+               "value":"300 dots per inch",
+               "key":"Y Resolution"
+            },
+            {  
+               "value":"1.00",
+               "key":"FlashPix Version"
+            },
+            {  
+               "value":"false",
+               "key":"exif:Flash"
+            },
+            {  
+               "value":"0.0125",
+               "key":"exif:ExposureTime"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"Last-Save-Date"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"meta:save-date"
+            },
+            {  
+               "value":"2016:06:17 16:44:41",
+               "key":"Date/Time Digitized"
+            },
+            {  
+               "value":"Flash did not fire",
+               "key":"Flash"
+            },
+            {  
+               "value":"300.0",
+               "key":"tiff:XResolution"
+            },
+            {  
+               "value":"2016-06-17T16:44:41",
+               "key":"exif:DateTimeOriginal"
+            },
+            {  
+               "value":"2016:06:17 16:44:41",
+               "key":"Date/Time"
+            },
+            {  
+               "value":"3264 pixels",
+               "key":"Exif Image Width"
+            },
+            {  
+               "value":"4928 pixels",
+               "key":"Image Height"
+            },
+            {  
+               "value":"3264 pixels",
+               "key":"Image Width"
+            },
+            {  
+               "value":"Inch",
+               "key":"Resolution Unit"
+            },
+            {  
+               "value":"NIKON D5100",
+               "key":"tiff:Model"
+            },
+            {  
+               "value":"2 EV",
+               "key":"Exposure Bias Value"
+            },
+            {  
+               "value":"F1.7",
+               "key":"Max Aperture Value"
+            },
+            {  
+               "value":"Manual exposure",
+               "key":"Exposure Mode"
+            },
+            {  
+               "value":"NIKON D5100",
+               "key":"Model"
+            },
+            {  
+               "value":"3264",
+               "key":"tiff:ImageWidth"
+            }
+         ],
+         "assetType":"PICTURE",
+         "files":[  
+            {  
+               "fileType":"HIRES",
+               "url":"https://swiftbuckets.sf-cdn.com/v1/uass/hires_8550/0d4cd328-a1e2-41b0-bfa1-21d4ed9a6e91.jpg",
+               "width":3264,
+               "height":4928,
+               "size":5367987
+            }
+         ],
+         "dateTaken":1466181881000,
+         "id":1000489927762070
+      }
+   ],
+   "entityMap":{  
+
+   },
+   "results":[  
+
+   ],
+   "errorId":null,
+   "resultCount":4,
+   "errors":[  
+
+   ],
+   "totalEntitiesCount":4
+}

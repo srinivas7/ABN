@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>AngularJS User Registration and Login Example</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+    <link href="./src/css/app.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <div ng-include="'./src/components/header/header.html'"></div>
+            <div class="col-sm-8 col-sm-offset-2">
+                <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
+                <div ng-view></div>
+            </div>
+            <div ng-include="'./src/components/footer/footer.html'"></div>
+        </div>
+    </div>
+
+    <script src="./lib/jquery-3.1.1.min.js"></script>
+    <script src="./lib/angular.min.js"></script>
+    <script src="./lib/angular-route.min.js"></script>
+    <script src="./lib/angular-cookies.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="./src/services/app-services/authentication.service.js"></script>
+    <script src="./src/services/app-services/flash.service.js"></script>
+
+    <script src="./src/services/app-services/user.service.local-storage.js"></script>
+
+    <script src="./src/components/home/home.controller.js"></script>
+    <script src="./src/components/login/login.controller.js"></script>
+    <script src="./src/components/register/register.controller.js"></script>
+    <script src="./src/components/some/some.controller.js"></script>
+</body>
+</html>
