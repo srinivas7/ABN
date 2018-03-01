@@ -14,7 +14,7 @@
                 <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
                 <div ng-view></div>
             </div>
-            <div ng-include="'./src/components/footer/footer.html'"></div>
+            <!-- <div ng-include="'./src/components/footer/footer.html'"></div> -->
         </div>
     </div>
 
@@ -26,6 +26,7 @@
     <script src="app.js"></script>
     <script src="./src/services/app-services/authentication.service.js"></script>
     <script src="./src/services/app-services/flash.service.js"></script>
+    <script src="./src/services/services.js"></script>
 
     <script src="./src/services/app-services/user.service.local-storage.js"></script>
 
