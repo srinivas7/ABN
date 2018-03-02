@@ -17,13 +17,17 @@ a {
 	opacity: 1;
 }
 
+.addBorder{
+	/* border: 1px solid green; */	
+	cursor: pointer;
+}
+
 .square {
   border: 1px solid gray;
   overflow: hidden;
   position: relative;
   border-radius: 0.50rem;
-  border: 1px solid green;
-  
+    
   > div {
     height: 100%;
     position: absolute;

@@ -5,14 +5,15 @@
         .module('app')
         .controller('HomeController', HomeController);
 
-    HomeController.$inject = ['$rootScope', 'DataService'];
-    function HomeController($rootScope, DataService) {
+    HomeController.$inject = ['$rootScope', '$location', 'DataService'];
+    function HomeController($rootScope, $location, DataService) {
         var abn = this;
         abn.loadAlbumsData = loadAlbumsData;
         abn.albumsData = {};
         loadAlbumsData();
         abn.albumHover = albumHover;
         abn.albumLeave = albumLeave;
+        abn.openAlbum = openAlbum;
 
         function loadAlbumsData(){
             console.log('loading albums data');
@@ -24,19 +25,20 @@
         }
         
         function albumHover(event){
-        	console.log('mouse hover', event);
-        	event.currentTarget.getAttribute('id');
-        	var myEl = angular.element( document.querySelector( 'img') );
-        	myEl.next().addClass('showAlbumName');
-        	//myEl[0].nextElementSibling.addClass('showAlbumName');
-        	//myEl.addClass('hovered');
+        	var myEl = angular.element(event.currentTarget.getElementsByClassName('middle'));
+        	myEl.addClass('showAlbumName');
+        	myEl.parent().addClass('addBorder');
         }
         
         function albumLeave(event){
-        	console.log('mouse leave', event);
-        	var myEl = angular.element( document.querySelector( 'img') );
-        	//myEl[0].nextElementSibling.removeClass('showAlbumName');
-        	myEl.next().removeClass('showAlbumName');
+        	var myEl = angular.element(event.currentTarget.getElementsByClassName('middle'));
+        	myEl.removeClass('showAlbumName');
+        	myEl.parent().removeClass('addBorder');
+        }
+        
+        function openAlbum(albumId){
+        	console.log(albumId);
+        	$location.path('/sav');
         }
 
     }

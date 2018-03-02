@@ -38,6 +38,12 @@
                 templateUrl: './src/components/register/register.view.html',
                 controllerAs: 'abn'
             })
+            
+            .when('/sav', {
+                controller: 'SavController',
+                templateUrl: './src/components/sav/sav.view.html',
+                controllerAs: 'abn'
+            })
 
             .otherwise({ redirectTo: '/login' });
     }
