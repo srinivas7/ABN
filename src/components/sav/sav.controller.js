@@ -12,6 +12,7 @@
         abn.albumId = $routeParams.param;
         abn.openSingleImg = openSingleImg;
         abn.showImageLayer = false;
+        abn.singleImgData = {};
         loadAlbumData();
         
         
@@ -25,9 +26,9 @@
         }
         
         function openSingleImg(openSingleImg){
-        	console.log('sdfasdf',openSingleImg);
         	angular.element(document.getElementById('box'));
         	abn.showImageLayer = true;
+        	abn.singleImgData = openSingleImg;
         }
     }
 

@@ -41,13 +41,35 @@ a {
 
 .box{
     width: 100%;
-    height: 100%;
+    height: 80%;
     top: 0px;
     left: 0px;
-    opacity: 10;
+    opacity: 1;
 	position: absolute;
+	background-color: black;
 }
 
+.img-holder {
+	width: 100%;
+	height: 100%;
+}
+
+.img-holder img {
+	width: 100%;
+	height: 80%;
+	border: 1px solid red;
+}
+.img-name{
+	color: white;
+	font-size: 30px;
+    text-align: center;
+}
+
+.close-img{
+	display: inline-block;
+    float: right;
+    margin: 15px;
+}
 .single-image-container{
 	opacity: 10;
 	position: absolute; 

@@ -23,7 +23,11 @@
 		</div>
 	</div>
 </div>
-{{showImageLayer}}hiii srinivas
-<div class="box" id="box" ng-if="showImageLayer">
-	<div>hi</div>     
+
+<div class="box" id="box" ng-if="abn.showImageLayer">
+	<div class="close-img" ng-click="abn.showImageLayer = false"><a>X</a></div>
+	<div class="img-holder">
+		<img id="{{abn.singleImgData._id}}" class="zoom" ng-src="{{abn.singleImgData.url}}" alt=""/>
+		<div class="img-name">hii</div>
+	</div>
 </div>
