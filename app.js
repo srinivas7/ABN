@@ -8,6 +8,8 @@
 
     config.$inject = ['$routeProvider', '$locationProvider'];
     function config($routeProvider, $locationProvider) {
+    	// $locationProvider.html5Mode(true);
+    	
         $routeProvider
             .when('/home', {
                 controller: 'HomeController',
@@ -39,7 +41,7 @@
                 controllerAs: 'abn'
             })
             
-            .when('/sav', {
+            .when('/sav/:id', {
                 controller: 'SavController',
                 templateUrl: './src/components/sav/sav.view.html',
                 controllerAs: 'abn'

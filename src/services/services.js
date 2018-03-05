@@ -12,6 +12,7 @@
     	 
     	 service.login = login;
     	 service.getAlbumnsData = getAlbumnsData;
+    	 service.getSingleAlbumData = getSingleAlbumData;
     	 
     	 return service;
     	 
@@ -21,6 +22,19 @@
     	 
     	 function getAlbumnsData(){
     		 return $http.get('./src/assets/albums.json')
+             .then(
+                     function(response){
+                         return response.data;
+                     }, 
+                     function(errResponse){
+                         console.error('Error while fetching users');
+                         return errResponse;
+                     }
+             );
+    	 }
+    	 
+    	 function getSingleAlbumData(){
+    		 return $http.get('./src/assets/singleAlbum.json')
              .then(
                      function(response){
                          return response.data;

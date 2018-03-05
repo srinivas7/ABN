@@ -14,7 +14,7 @@
 
         function login() {
             abn.dataLoading = true;
-            $location.path('/');
+            $location.path('/home');
         };
         
         function hi(){

@@ -38,7 +38,7 @@
         
         function openAlbum(albumId){
         	console.log(albumId);
-        	$location.path('/sav');
+        	$location.path('/sav/'+albumId);
         }
 
     }

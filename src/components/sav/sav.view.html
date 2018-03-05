@@ -1,1 +1,29 @@
-<div>sav page</div>
+<div class="container">
+  <div class="jumbotron main-img">
+    <div>
+    	<img class="sav-main-img" id="{{abn.savData[0]._id}}" class="zoom1" ng-src="{{abn.savData[0].url}}" alt="" width="100%" />
+    </div>
+  </div>
+</div>
+<div class="sav-images-container">
+	<div ng-repeat="image in abn.savData">
+		<div class="col-sm-6 col-xs-7 col-lg-3 album-img">
+		    <div class="square" ng-click="abn.openSingleImg(image)"><!-- ng-click="abn.openImage(album.id)" -->
+		        <div>
+		            <div>
+		                <div class="zoom">
+		                	<img id="{{image._id}}" class="zoom" ng-src="{{image.url}}" alt="" height="125px" width="100%" />
+		                	 <div class="middle">
+							    <!-- <div class="text">{{album.albumName}}</div> -->
+							  </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+</div>
+{{showImageLayer}}hiii srinivas
+<div class="box" id="box" ng-if="showImageLayer">
+	<div>hi</div>     
+</div>
